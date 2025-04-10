@@ -1,122 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EPS Informática</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      color: #333;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    header {
-      background-color: #d1b07c;
-      width: 100%;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0;
-      color: #222;
-      font-size: 2.5rem;
-    }
-
-    main {
-      max-width: 600px;
-      background: white;
-      padding: 2rem;
-      margin-top: -2rem;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      border-radius: 1rem;
-    }
-
-    h2 {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-      text-align: center;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    ul li {
-      margin: 0.5rem 0;
-      padding-left: 1.5rem;
-      position: relative;
-    }
-
-    ul li::before {
-      content: '✔';
-      color: green;
-      position: absolute;
-      left: 0;
-    }
-
-    .whatsapp {
-      margin-top: 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .whatsapp a {
-      text-decoration: none;
-      color: #fff;
-      background: #25D366;
-      padding: 0.8rem 1.5rem;
-      border-radius: 5px;
-      font-size: 1.2rem;
-      display: flex;
-      align-items: center;
-    }
-
-    .whatsapp img {
-      width: 24px;
-      margin-right: 0.5rem;
-    }
-
-    footer {
-      margin: 2rem 0 1rem;
-      font-size: 0.9rem;
-      color: #888;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPS Informática</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f1f1;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        header {
+            background-color: #2e86de;
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .buttons {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            max-width: 400px;
+        }
+        .buttons a {
+            text-decoration: none;
+            color: white;
+            background-color: #2e86de;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            text-align: center;
+            transition: background 0.3s ease;
+        }
+        .buttons a:hover {
+            background-color: #1b4f72;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>EPS INFORMÁTICA</h1>
-  </header>
-  <main>
-    <h2>O que você precisa?</h2>
-    <ul>
-      <li>Formatação</li>
-      <li>Remoção de vírus</li>
-      <li>Remoção de senhas</li>
-      <li>Recuperação de dados</li>
-      <li>Limpeza virtual e física</li>
-      <li>Montagem ou upgrade</li>
-    </ul>
-
-    <div class="whatsapp">
-      <a href="https://wa.me/5551989086789" target="_blank">
-        <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp" />
-        Fale conosco
-      </a>
+    <header>
+        <h1>EPS Informática</h1>
+        <p>Serviços de Informática na Zona Sul de Porto Alegre</p>
+    </header>
+    <div class="buttons">
+        <a href="https://wa.me/5551989086789" target="_blank">💬 Atendimento via WhatsApp</a>
+        <a href="https://www.instagram.com/epsinformatica.poa" target="_blank">📷 Instagram</a>
+        <a href="https://www.facebook.com/epsinformatica.tech" target="_blank">📘 Página no Facebook</a>
+        <a href="https://www.linkedin.com/in/everson-pereira-b594ab42" target="_blank">💼 Perfil no LinkedIn</a>
+        <a href="mailto:everson_pereira@outlook.com">📧 Enviar e-mail</a>
     </div>
-  </main>
-
-  <footer>
-    Orçamento gratuito · EPS Informática · RS
-  </footer>
+    <footer>
+        <p>© 2025 EPS Informática - Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>
